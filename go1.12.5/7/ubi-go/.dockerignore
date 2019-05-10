@@ -3,7 +3,7 @@
 ### Example user template
 
 # IntelliJ project files
-../.idea
+../../../.idea
 ../../.idea/ubi-go.iml
 out
 gen
