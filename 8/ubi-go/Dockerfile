@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/ubi8/ubi@sha256:12bec5ede6a1b6d23071a735c0d6d3ca59233da71e1a253497e28e52f327b06e
 
 LABEL maintainer="Jordan Gregory <jordan@gregory-dev.io>" \
-      repository="https://gitlab.com/j4ng5y/ubi-go" \
+      repository="https://github.com/Gregory-Development/ubi-go" \
       commit="" \
       version="1.0.0"
 
