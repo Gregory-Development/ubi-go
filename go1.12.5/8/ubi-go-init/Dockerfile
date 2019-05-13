@@ -4,10 +4,10 @@ LABEL maintainer="Jordan Gregory <jordan@gregory-dev.io>" \
       repository="https://github.com/Gregory-Development/ubi-go" \
       version="1.0.0"
 
-RUN dnf install git tar gzip \
+RUN yum install git tar gzip \
   && curl https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz | tar zxC /usr/local \
   && mkdir -p /go/bin /go/src /go/pkg \
-  && dnf clean all
+  && yum clean all
 
 ENV GOPATH="/go"
 ENV PATH=$PATH:/usr/local/go/bin
