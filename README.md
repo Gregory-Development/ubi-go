@@ -6,16 +6,16 @@ The docker files for the Gregory Development RHEL8 and RHEL7 UBI Golang Containe
 
 * __RHEL8 Universal Base Image (UBI) Golang:__
   
-  * [Standard]()
+  * [Standard](https://github.com/Gregory-Development/ubi-go/blob/master/go1.12.5/8/ubi-go/Dockerfile)
   
-  * [Minimal]()
+  * [Minimal](https://github.com/Gregory-Development/ubi-go/blob/master/go1.12.5/8/ubi-go-minimal/Dockerfile)
   
-  * [Systemd]()
+  * [Systemd](https://github.com/Gregory-Development/ubi-go/blob/master/go1.12.5/8/ubi-go-init/Dockerfile)
   
 * __RHEL7 Universal Base Image (UBI) Golang:__
 
-  * [Standard]()
+  * [Standard](https://github.com/Gregory-Development/ubi-go/blob/master/go1.12.5/7/ubi-go/Dockerfile)
       
-  * [Minimal]()
+  * [Minimal](https://github.com/Gregory-Development/ubi-go/blob/master/go1.12.5/7/ubi-go-minimal/Dockerfile)
       
-  * [Systemd]()
+  * [Systemd](https://github.com/Gregory-Development/ubi-go/blob/master/go1.12.5/7/ubi-go-init/Dockerfile)
