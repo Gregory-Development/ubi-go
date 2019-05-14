@@ -4,7 +4,7 @@ LABEL maintainer="Jordan Gregory <jordan@gregory-dev.io>" \
       repository="https://github.com/Gregory-Development/ubi-go" \
       version="1.0.0"
 
-RUN yam install -y git tar gzip \
+RUN yum install -y git tar gzip \
   && curl https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz | tar zxC /usr/local \
   && mkdir -p /go/bin /go/src /go/pkg \
   && yum clean all
